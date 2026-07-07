@@ -1,0 +1,1 @@
+ALTER TABLE public.org_settings ADD COLUMN IF NOT EXISTS zebra_rows boolean NOT NULL DEFAULT true;

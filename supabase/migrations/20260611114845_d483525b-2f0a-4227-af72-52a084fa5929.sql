@@ -1,0 +1,1 @@
+ALTER TABLE public.org_settings ADD COLUMN IF NOT EXISTS light_theme text NOT NULL DEFAULT 'standard';
